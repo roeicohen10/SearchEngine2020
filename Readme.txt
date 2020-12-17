@@ -1,14 +1,24 @@
 This is a Read Me instruction file for using the Program.
 
+Throughout the course “Information Retrieval”  we had an assignment – to build a search engine
+for a selected corpus with an amount of 490k+ documents.
+The engine parse the documents and work in order to retrieve the most relevant documents for a specific query inserted by the user.
+This engine use a BM25 Ranking Algorithm in order to retrieve the documents, also using Word2Vec semantic model in order to 
+retrieve documents with the same semantic meaning for inserted queries.
+
+Instructions for using the program:
+
 Run - pressing on this button will start the process of creating Inverted Index from the corpus.
 
 Reset - pressing on this buttion will delete everything the program saved on the Main Memory and on the Hard Disk.
 
 Stem - clicking on this box will make the program use Porter Stemmer algorithm.
 
-Corpus Path - in this Text box you will write the path to your corpus folder, you can also chose the folder by pressing on the Browse button next to the Text box.
+Corpus Path - in this Text box you will write the path to your corpus folder,
+you can also chose the folder by pressing on the Browse button next to the Text box.
 
-Posting Path - in this Text box you will write the path to your Posting folder, you can also chose the folder by pressing on the Browse button next to the Text box.
+Posting Path - in this Text box you will write the path to your Posting folder,
+you can also chose the folder by pressing on the Browse button next to the Text box.
 
 Show Dictionary - pressing on this button will allow you to show the dictionary. 
 in order to show the dictionary you must first Run the program or Load the dictionary from file after Running the program once.
@@ -54,7 +64,4 @@ Workflow for Running queries file:
 3.Wait for the system to retrive documents.
 4.The retriveled relevant documents will appear on the list view in the program.
 5.*Optional* In order to see if the Document have Entities you can press on the Document name. (Document can have a maximum of 5 entities showed)
-
-Included in the Package:
-
 
